@@ -12,8 +12,8 @@ namespace PokemonLib
         public string gender;
         public int hp_max;
         public int hp_now;
-        public int pweight;
-        public int pheight;
+        public float pweight;
+        public float pheight;
         public string pattribute;
         public int stardust;
         public int candy;

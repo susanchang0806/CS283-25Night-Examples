@@ -5,7 +5,7 @@ VisualStudioVersion = 15.0.26430.15
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CS283-Homework1", "CS283-Homework1\CS283-Homework1.csproj", "{56912322-CBFA-4753-AB97-76B337593920}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PokemonLib", "..\PokemonLib\PokemonLib\PokemonLib.csproj", "{9388A570-9466-40B3-A2A1-50DE2481C2E8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PokemonLib", "PokemonLib\PokemonLib\PokemonLib.csproj", "{9388A570-9466-40B3-A2A1-50DE2481C2E8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

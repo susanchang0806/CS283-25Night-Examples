@@ -49,7 +49,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\PokemonLib\PokemonLib\PokemonLib.csproj">
+    <ProjectReference Include="..\PokemonLib\PokemonLib\PokemonLib.csproj">
       <Project>{9388a570-9466-40b3-a2a1-50de2481c2e8}</Project>
       <Name>PokemonLib</Name>
     </ProjectReference>
