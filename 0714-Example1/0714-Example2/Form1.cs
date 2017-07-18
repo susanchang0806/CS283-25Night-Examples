@@ -53,8 +53,15 @@ namespace _0714_Example2
             UserStarDust = UserStarDust - aPokemon.PowerUpstardust;
             aPokemon.hp_max = aPokemon.hp_max + 10;
             aPokemon.hp_now = aPokemon.hp_now + 10;
-            HpLabel.Text = aPokemon.hp_now.ToString() + "/" + aPokemon.Hp + "HP";
+            HpLabel.Text = aPokemon.hp_now.ToString() + "/" + aPokemon.hp_now + "HP";
             UserStardustLabel.Text = UserStarDust.ToString();
+            UserCandyLabel.Text = UserCandy.ToString();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            nameLabel.Text = "妙娃草";
+            UserCandy = UserCandy - aPokemon.EvolveCandy;
             UserCandyLabel.Text = UserCandy.ToString();
         }
     }

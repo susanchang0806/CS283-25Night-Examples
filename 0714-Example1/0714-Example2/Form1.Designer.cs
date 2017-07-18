@@ -60,17 +60,18 @@
             this.nameLabel.AutoSize = true;
             this.nameLabel.Font = new System.Drawing.Font("微軟正黑體", 26F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.nameLabel.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.nameLabel.Location = new System.Drawing.Point(189, 221);
+            this.nameLabel.Location = new System.Drawing.Point(158, 177);
             this.nameLabel.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.nameLabel.Name = "nameLabel";
             this.nameLabel.Size = new System.Drawing.Size(463, 66);
             this.nameLabel.TabIndex = 0;
             this.nameLabel.Text = "PoKemon\'sName";
+            this.nameLabel.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // HpLabel
             // 
             this.HpLabel.AutoSize = true;
-            this.HpLabel.Location = new System.Drawing.Point(360, 298);
+            this.HpLabel.Location = new System.Drawing.Point(360, 254);
             this.HpLabel.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.HpLabel.Name = "HpLabel";
             this.HpLabel.Size = new System.Drawing.Size(115, 31);
@@ -80,7 +81,7 @@
             // WeightLabel
             // 
             this.WeightLabel.AutoSize = true;
-            this.WeightLabel.Location = new System.Drawing.Point(110, 366);
+            this.WeightLabel.Location = new System.Drawing.Point(110, 322);
             this.WeightLabel.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.WeightLabel.Name = "WeightLabel";
             this.WeightLabel.Size = new System.Drawing.Size(96, 31);
@@ -90,7 +91,7 @@
             // TypesLabel
             // 
             this.TypesLabel.AutoSize = true;
-            this.TypesLabel.Location = new System.Drawing.Point(372, 366);
+            this.TypesLabel.Location = new System.Drawing.Point(372, 322);
             this.TypesLabel.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.TypesLabel.Name = "TypesLabel";
             this.TypesLabel.Size = new System.Drawing.Size(73, 31);
@@ -100,7 +101,7 @@
             // HeightLabel
             // 
             this.HeightLabel.AutoSize = true;
-            this.HeightLabel.Location = new System.Drawing.Point(607, 366);
+            this.HeightLabel.Location = new System.Drawing.Point(607, 322);
             this.HeightLabel.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.HeightLabel.Name = "HeightLabel";
             this.HeightLabel.Size = new System.Drawing.Size(85, 31);
@@ -110,7 +111,7 @@
             // UserStardustLabel
             // 
             this.UserStardustLabel.AutoSize = true;
-            this.UserStardustLabel.Location = new System.Drawing.Point(224, 442);
+            this.UserStardustLabel.Location = new System.Drawing.Point(264, 396);
             this.UserStardustLabel.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.UserStardustLabel.Name = "UserStardustLabel";
             this.UserStardustLabel.Size = new System.Drawing.Size(98, 31);
@@ -120,7 +121,7 @@
             // UserCandyLabel
             // 
             this.UserCandyLabel.AutoSize = true;
-            this.UserCandyLabel.Location = new System.Drawing.Point(566, 442);
+            this.UserCandyLabel.Location = new System.Drawing.Point(606, 396);
             this.UserCandyLabel.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.UserCandyLabel.Name = "UserCandyLabel";
             this.UserCandyLabel.Size = new System.Drawing.Size(42, 31);
@@ -130,7 +131,7 @@
             // PowerUpStardustLabel
             // 
             this.PowerUpStardustLabel.AutoSize = true;
-            this.PowerUpStardustLabel.Location = new System.Drawing.Point(360, 562);
+            this.PowerUpStardustLabel.Location = new System.Drawing.Point(400, 466);
             this.PowerUpStardustLabel.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.PowerUpStardustLabel.Name = "PowerUpStardustLabel";
             this.PowerUpStardustLabel.Size = new System.Drawing.Size(70, 31);
@@ -140,7 +141,7 @@
             // PowerUpCandyLabel
             // 
             this.PowerUpCandyLabel.AutoSize = true;
-            this.PowerUpCandyLabel.Location = new System.Drawing.Point(566, 562);
+            this.PowerUpCandyLabel.Location = new System.Drawing.Point(606, 466);
             this.PowerUpCandyLabel.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.PowerUpCandyLabel.Name = "PowerUpCandyLabel";
             this.PowerUpCandyLabel.Size = new System.Drawing.Size(28, 31);
@@ -150,7 +151,7 @@
             // EvolveCandyLabel
             // 
             this.EvolveCandyLabel.AutoSize = true;
-            this.EvolveCandyLabel.Location = new System.Drawing.Point(566, 696);
+            this.EvolveCandyLabel.Location = new System.Drawing.Point(606, 536);
             this.EvolveCandyLabel.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.EvolveCandyLabel.Name = "EvolveCandyLabel";
             this.EvolveCandyLabel.Size = new System.Drawing.Size(42, 31);
@@ -160,7 +161,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(116, 423);
+            this.pictureBox1.Location = new System.Drawing.Point(156, 377);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(106, 50);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -170,7 +171,7 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(458, 423);
+            this.pictureBox2.Location = new System.Drawing.Point(498, 377);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(100, 50);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -180,7 +181,7 @@
             // pictureBox3
             // 
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(230, 543);
+            this.pictureBox3.Location = new System.Drawing.Point(270, 447);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(100, 50);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -190,7 +191,7 @@
             // pictureBox4
             // 
             this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
-            this.pictureBox4.Location = new System.Drawing.Point(458, 543);
+            this.pictureBox4.Location = new System.Drawing.Point(498, 447);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(100, 50);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -200,7 +201,7 @@
             // pictureBox5
             // 
             this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
-            this.pictureBox5.Location = new System.Drawing.Point(458, 677);
+            this.pictureBox5.Location = new System.Drawing.Point(498, 517);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(100, 50);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -209,16 +210,18 @@
             // 
             // pictureBox6
             // 
-            this.pictureBox6.Location = new System.Drawing.Point(284, 56);
+            this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
+            this.pictureBox6.Location = new System.Drawing.Point(284, 12);
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.Size = new System.Drawing.Size(258, 162);
+            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox6.TabIndex = 15;
             this.pictureBox6.TabStop = false;
             // 
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.MediumAquamarine;
-            this.button1.Location = new System.Drawing.Point(96, 538);
+            this.button1.Location = new System.Drawing.Point(136, 442);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(126, 55);
             this.button1.TabIndex = 16;
@@ -229,19 +232,20 @@
             // button2
             // 
             this.button2.BackColor = System.Drawing.Color.MediumAquamarine;
-            this.button2.Location = new System.Drawing.Point(96, 672);
+            this.button2.Location = new System.Drawing.Point(136, 512);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(126, 55);
             this.button2.TabIndex = 17;
             this.button2.Text = "進化";
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(15F, 31F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.ClientSize = new System.Drawing.Size(792, 1038);
+            this.ClientSize = new System.Drawing.Size(734, 751);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.pictureBox6);
@@ -261,7 +265,7 @@
             this.Controls.Add(this.HpLabel);
             this.Controls.Add(this.nameLabel);
             this.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.Margin = new System.Windows.Forms.Padding(5);
             this.Name = "Form1";
             this.Text = "s";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
