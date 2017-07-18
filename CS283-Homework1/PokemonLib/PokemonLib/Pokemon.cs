@@ -14,13 +14,11 @@ namespace PokemonLib
         public int hp_now;
         public float pweight;
         public float pheight;
-        public string pattribute;
-        public int stardust;
-        public int candy;
-        public string skill1;
-        public int skill1_power;
-        public string skill2;
-        public int skill2_power;
-
+        public string[] Types;
+        public int PowerUpstardust;
+        public int PowerUpCandy;
+        public int EvolveCandy;
+        public int UserStardust;
+        public int UserCandy;
     }
 }
